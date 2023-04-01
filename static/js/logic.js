@@ -37,9 +37,5 @@ var myMap = L.map("map").setView([39.8283, -98.5795], 4);
                 radius : circleradius
             }).bindPopup("<h2>Magnitude: " + magnitude + "</h2><h3>Depth: " + depth + "</h3>").addTo(myMap);
         }
-        // var legend = L.control({position: 'bottomright'});
-        // legend.onAdd = function() {
-        //     var div = L.DomUtil.create('div', 'legend');
-        // }
-        // legend.addTo(myMap);
+        
     });
